@@ -1,0 +1,48 @@
+<br/> is used to break the line 
+
+Horizontag line
+            -> <hr>
+
+poet problem
+            <pre></pre>
+            The <pre> HTML element represents preformatted text which is to be presented 
+            exactly as written in the HTML file. The text is typically rendered using 
+            a non-proportional, or monospaced, font. Whitespace inside this element is 
+            displayed as written.
+
+
+Quotation tag
+            -> blockquote
+            -> Quotation
+            -> cite
+            ->address
+            ->abbr
+
+List
+    <ul> onordered list</ul>
+    <ol>ordered list</ol>
+    <ul>
+        <li> Shahi Panner</li>
+        <li>Kadai Panner</li>
+        <li>Panner do pyaja</li>
+            <ol>
+                <li>Chicken Panner</li>
+                <li>Mutton Panner</li>
+        </ol>
+        <li>Paratha</li>
+        <li>Lassi</li>
+    </ul>
+
+Tables
+        <table></table>
+           table row-> <tr></tr> 
+           table data -> <td></td>
+        <table>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Knocky</td>
+                <td>Flor</td>
+                <td>Ella</td>
+                <td>Juan</td>
+            </tr>
+        </table>
