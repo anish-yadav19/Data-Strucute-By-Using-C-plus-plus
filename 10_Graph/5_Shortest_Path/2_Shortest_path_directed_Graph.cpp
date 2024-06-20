@@ -35,11 +35,11 @@ class Graph
         int src = topoOrder.top();
         topoOrder.pop();
         dist[src] = 0;
-        for(auto nbr: adj[0])
+        for(auto nbr: adj[src])
         {
-            if(dist[0] + nbr.second < dist[nbr.first])
+            if(dist[src] + nbr.second < dist[nbr.first])
             {
-                dist[nbr.first] = dist[0] + nbr.second;
+                dist[nbr.first] = dist[src] + nbr.second;
             }
         }
 
