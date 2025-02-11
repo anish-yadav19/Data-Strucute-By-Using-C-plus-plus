@@ -132,13 +132,14 @@ void deleteAtPosition(int position,Node* &head, Node* &tail)
     {
         int i = 1;
         Node* prev = head;
-        if(i<position-1)
+        while(i < position-1)
         {
             prev = prev->next;
             i++;
         }
-        prev->next = NULL;
         Node* temp = tail;
+        prev->next = NULL;
+        
        
         tail = prev;
         delete temp;
@@ -191,7 +192,7 @@ int main()
     //deleteAtPosition(1,head,tail);
 
     print(head);
-    deleteAtPosition(1,head,tail);
+    deleteAtPosition(4,head,tail);
     print(head);
     
     

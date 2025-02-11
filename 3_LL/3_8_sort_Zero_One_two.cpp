@@ -186,10 +186,10 @@ int main()
     Node* head = new Node(2);
    
     insertAtHead(head,2);
+    insertAtHead(head,0);
     insertAtHead(head,2);
-    insertAtHead(head,2);
-    insertAtHead(head,2);
-    insertAtHead(head,2);
+    insertAtHead(head,1);
+    insertAtHead(head,1);
 
     print(head);
     cout<<endl;
@@ -198,8 +198,8 @@ int main()
     sortZeroOneTwo(head);
     print(head);
     cout<<endl;
-    head = sort2(head);
-    print(head);
+    // head = sort2(head);
+    // print(head);
    
     return 0;
 }

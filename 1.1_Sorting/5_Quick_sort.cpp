@@ -32,9 +32,8 @@ int partition(int arr[],int s , int e)
     {
         while(arr[i]<=pivotElement)
         {
-            i++;
-        }
-        while(arr[j]>pivotElement)
+            i++;         }
+        while(arr[j]>pivotElement)  
         {
             j--;
         }
